@@ -1,6 +1,6 @@
 import { legacy_createStore, combineReducers } from 'redux';
-import serviceListReducer from '../components/reducers/serviceListReducer';
-import serviceAddReducer from '../components/reducers/serviceAddReducer';
+import serviceListReducer from './reducers/serviceListReducer';
+import serviceAddReducer from './reducers/serviceAddReducer';
 const reducer = combineReducers({
     serviceList: serviceListReducer,
     serviceAdd: serviceAddReducer,

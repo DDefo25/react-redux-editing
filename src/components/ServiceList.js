@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import {removeService, changeServiceField, clearServiceField} from './actions/actions'
+import {removeService, changeServiceField, clearServiceField} from '../store/actions/actions'
 
 export default function ServiceList() {
     const items = useSelector(state => state.serviceList);
